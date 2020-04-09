@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 300;
+    src: url("/assets/font/Gilroy-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-weight: 700;
+    src: url("/assets/font/Gilroy-ExtraBold.otf");
+}
+
+html, body, header, main, footer {
+    font-size: 18px;
+    font-family: 'Gilroy', serif;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+i {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+b, strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 1px;
+    transition: background-size cubic-bezier(0, .5, 0, 1) 0.5s;
+}
+
+a::selection {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 0 0;
+    transition: background-size cubic-bezier(0, 0, 0, 0) 0s;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    background-size: 100% 1px;
+}
+
+.not-animated a:hover, .not-animated a:focus,
+a.not-animated:hover, a.not-animated:focus {
+    text-decoration: none;
+    background-size: 0 1px;
+}
+
+.bg-light {
+    color: #000000;
+    background-color: #ffffff !important;
+}
+
+.bg-light i, .bg-light em {
+    color: #000000;
+}
+
+.bg-light b, .bg-light strong {
+    color: #db1a1a;
+}
+
+.bg-light h1,
+.bg-light h2,
+.bg-light h3,
+.bg-light h4,
+.bg-light h5,
+.bg-light h6 {
+    color: #db1a1a;
+}
+
+.bg-light a, .bg-light a:hover {
+    color: #db1a1a;
+}
+
+.bg-light p::selection,
+.bg-light i::selection,
+.bg-light em::selection,
+.bg-light b::selection,
+.bg-light strong::selection,
+.bg-light h1::selection,
+.bg-light h2::selection,
+.bg-light h3::selection,
+.bg-light h4::selection,
+.bg-light h5::selection,
+.bg-light h6::selection,
+.bg-light a::selection,
+.bg-light a:hover::selection,
+.bg-light li::selection {
+    color: #ffffff;
+    background-color: #db1a1a;
+}
+
+.bg-red {
+    color: #ffffff;
+    background-color: #db1a1a; !important;
+}
+
+.bg-red i, .bg-red em {
+    color: #ffffff;
+}
+
+.bg-red b, .bg-red strong {
+    color: #ffffff;
+}
+
+.bg-red h1,
+.bg-red h2,
+.bg-red h3,
+.bg-red h4,
+.bg-red h5,
+.bg-red h6 {
+    color: #ffffff;
+}
+
+.bg-red a, .bg-red a:hover {
+    color: #ffffff;
+}
+
+.bg-red p::selection,
+.bg-red i::selection,
+.bg-red em::selection,
+.bg-red b::selection,
+.bg-red strong::selection,
+.bg-red h1::selection,
+.bg-red h2::selection,
+.bg-red h3::selection,
+.bg-red h4::selection,
+.bg-red h5::selection,
+.bg-red h6::selection,
+.bg-red a::selection,
+.bg-red a:hover::selection,
+.bg-red li::selection {
+    color: #db1a1a;
+    background-color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding-top: 1rem;
+
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.navbar .nav-item {
+    padding: 0 .2rem;
+}
+
+.navbar .nav-logo {
+    height: 100px;
+    content: url("/assets/logo/white.png");
+}
+
+@media (max-width: 991px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar .nav-item {
+        padding: .5rem 0;
+    }
+}
+
+.navbar-toggler {
+    outline: 0;
+    border: none;
+    background-color: transparent !important;
+}
+
+.navbar-toggler span {
+    width: 30px;
+    height: 4px;
+    display: block;
+    transition: all 0.3s;
+    margin-top: 4px;
+    background-color: #ffffff;
+}
+
+.navbar-toggler span:nth-of-type(1) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.navbar-toggler span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed span:nth-of-type(1) {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed span:nth-of-type(2) {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed span:nth-of-type(3) {
+    transform: rotate(0);
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container .bip-logo {
+    height: 50px;
+    content: url("/assets/bip.jpg");
+}
+
+footer .container-fluid {
+    padding-top: 1rem;
+}

@@ -1,0 +1,8 @@
+permalink: pretty
+
+title: Instytut Progresywnego Społeczeństwa BIP
+description: Biuletyn Informacji Publicznej Fundacji Instytut Progresywnego Społeczeństwa
+
+logo: /assets/logo/red.png
+
+plugins: [jekyll-seo-tag]

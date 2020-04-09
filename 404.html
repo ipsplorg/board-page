@@ -1,0 +1,18 @@
+---
+title: 404
+layout: default
+---
+
+<p>Dostępne strony:</p>
+
+<ul>
+    {% assign targets = site.pages | sort: "order" %}
+
+    {% for target in targets %}
+        {% if target.title and target.order %}
+            <li>
+                <a href="{{ target.url }}">{{ target.title }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

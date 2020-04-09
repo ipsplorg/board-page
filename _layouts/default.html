@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+
+    <body>
+        <header>
+            {% include header.html %}
+        </header>
+
+        <main class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="ml-auto">
+                        <a class="not-animated" href="https://bip.gov.pl">
+                            <span class="bip-logo"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="container-fluid">
+                        <h1>{{ page.title }}</h1>
+
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-red">
+            {% include footer.html %}
+        </footer>
+
+        {% include script.html %}
+    </body>
+</html>

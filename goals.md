@@ -1,0 +1,23 @@
+---
+order: 2
+title: Cele
+layout: default
+---
+
+Celem Fundacji jest umacnianie więzi Polski z Unią Europejską, w tym propagowanie wartości, na których opiera się Unia Europejska oraz upowszechnianie idei społeczeństwa obywatelskiego, a w szczególności: 
+
+* ochronę wolności i praw człowieka
+* poprawę jakości, przejrzystości i uczciwości życia publicznego
+* promowanie aktywnego udziału obywateli w kształtowaniu polityki samorządowej i ogólnopolskiej
+* promowanie efektywnego, praworządnego, przejrzystego i otwartego na kontrolę obywatelską gospodarowania majątkiem publicznym na poziomie lokalnym i ogólnokrajowym 
+* sprawowanie społecznej kontroli nad funkcjonowaniem samorządów, władz rządowych oraz wymiaru sprawiedliwości 
+* działanie na rzecz zrównoważonego rozwoju i modernizacji państwa w dziedzinie środowiska, energetyki, gospodarki, spraw zagranicznych, polityki bezpieczeństwa, transportu, kultury i edukacji zarówno na poziomie lokalnym jak i krajowym 
+* aktywne uczestnictwo w wypracowaniu strategii państwa w dziedzinach wspominanych w pkt. 6
+* promowanie idei odpowiedzialnego społecznie biznesu oraz wspieranie lokalnej przedsiębiorczości 
+* zwiększenie dostępu obywateli do pomocy prawnej oraz poprawa jakości funkcjonowania wymiaru sprawiedliwości 
+* ochronę środowiska, w tym tworzenie warunków korzystnych dla kształtowania środowiska naturalnego oraz jego odnowy ze szczególnym uwzględnieniem czystości powietrza, oraz ochrona dobrostanu zwierząt, a także rozszerzanie i pogłębianie świadomości społecznej w zakresie ochrony środowiska i ochrony zdrowia publicznego mającego wpływ na poprawę jakości życia obywateli 
+* ochroę elementów istotnych dla tożsamości historycznej i kulturowej (architektonicznych, urbanistycznych i infrastrukturalnych), w szczególności zabytków oraz miejsc lub budynków o szczególnej wartości dla wspólnot lokalnych  
+* popularyzowanie, promowanie i rozwój kultury i sztuki 
+* działalność naukowa i oświatowa, w tym prowadzenie badań i analiz ich rezultatów
+
+*Utworzono w dniu 9 kwietnia 2020 r.*
